@@ -3,4 +3,6 @@ project(UserDataTypes)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(UserDataTypes main.cpp)
+add_executable(UserDataTypes main.cpp
+        Employee.cpp
+        Employee.h)
